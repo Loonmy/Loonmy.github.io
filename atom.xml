@@ -6,7 +6,7 @@
   <link href="http://example.com/atom.xml" rel="self"/>
   
   <link href="http://example.com/"/>
-  <updated>2021-12-04T13:46:50.375Z</updated>
+  <updated>2021-12-05T11:45:54.487Z</updated>
   <id>http://example.com/</id>
   
   <author>
@@ -17,11 +17,36 @@
   <generator uri="https://hexo.io/">Hexo</generator>
   
   <entry>
+    <title>水文与水资源学 第一章 笔记</title>
+    <link href="http://example.com/2021/12/05/%E6%B0%B4%E6%96%87%E4%B8%8E%E6%B0%B4%E8%B5%84%E6%BA%90%E5%AD%A6/"/>
+    <id>http://example.com/2021/12/05/%E6%B0%B4%E6%96%87%E4%B8%8E%E6%B0%B4%E8%B5%84%E6%BA%90%E5%AD%A6/</id>
+    <published>2021-12-05T11:16:21.262Z</published>
+    <updated>2021-12-05T11:45:54.487Z</updated>
+    
+    <content type="html"><![CDATA[<h2 id="要求"><a href="#要求" class="headerlink" title="要求"></a>要求</h2><p>理解水文与水资源学的研究对象与核心内容；<br>了解水文学、水资源学的发展历程和未来的发展方向。</p><hr><h2 id="一、-水文与水资源学研究的对象和任务"><a href="#一、-水文与水资源学研究的对象和任务" class="headerlink" title="一、 水文与水资源学研究的对象和任务"></a>一、 水文与水资源学研究的对象和任务</h2><h3 id="1-名词解释"><a href="#1-名词解释" class="headerlink" title="1. 名词解释"></a>1. 名词解释</h3><p>水文：<br>水资源：<br>水文学：</p><h2 id="二、-水文与水资源的基本特征"><a href="#二、-水文与水资源的基本特征" class="headerlink" title="二、 水文与水资源的基本特征"></a>二、 水文与水资源的基本特征</h2><h3 id="1-时程变化的必然性和偶然性"><a href="#1-时程变化的必然性和偶然性" class="headerlink" title="1. 时程变化的必然性和偶然性"></a>1. 时程变化的必然性和偶然性</h3><p>……</p>]]></content>
+    
+    
+    <summary type="html">知识点梳理，附思维导图。</summary>
+    
+    
+    
+    <category term="学习" scheme="http://example.com/categories/%E5%AD%A6%E4%B9%A0/"/>
+    
+    <category term="大学课程" scheme="http://example.com/categories/%E5%AD%A6%E4%B9%A0/%E5%A4%A7%E5%AD%A6%E8%AF%BE%E7%A8%8B/"/>
+    
+    <category term="水文与水资源学" scheme="http://example.com/categories/%E5%AD%A6%E4%B9%A0/%E5%A4%A7%E5%AD%A6%E8%AF%BE%E7%A8%8B/%E6%B0%B4%E6%96%87%E4%B8%8E%E6%B0%B4%E8%B5%84%E6%BA%90%E5%AD%A6/"/>
+    
+    
+    <category term="水资源学" scheme="http://example.com/tags/%E6%B0%B4%E8%B5%84%E6%BA%90%E5%AD%A6/"/>
+    
+  </entry>
+  
+  <entry>
     <title>我的博客测试一号</title>
     <link href="http://example.com/2021/12/04/%E6%88%91%E7%9A%84%E5%8D%9A%E5%AE%A2%E6%B5%8B%E8%AF%95/"/>
     <id>http://example.com/2021/12/04/%E6%88%91%E7%9A%84%E5%8D%9A%E5%AE%A2%E6%B5%8B%E8%AF%95/</id>
     <published>2021-12-03T17:45:26.000Z</published>
-    <updated>2021-12-04T13:46:50.375Z</updated>
+    <updated>2021-12-05T11:33:40.968Z</updated>
     
     <content type="html"><![CDATA[<h2 id="一、这是大标题"><a href="#一、这是大标题" class="headerlink" title="一、这是大标题"></a>一、这是大标题</h2><p>描述</p><h3 id="1-小标题好"><a href="#1-小标题好" class="headerlink" title="1. 小标题好"></a>1. 小标题好</h3><p>  内容<em>内容</em><strong>内容</strong>。</p><h3 id="2-小标题"><a href="#2-小标题" class="headerlink" title="2. 小标题"></a>2. 小标题</h3><h2 id="内容内容"><a href="#内容内容" class="headerlink" title="  内容内容"></a>  内容内容</h2><h2 id="二、第二个大标题"><a href="#二、第二个大标题" class="headerlink" title="二、第二个大标题"></a>二、第二个大标题</h2><p>描述</p><h3 id="1-小标题"><a href="#1-小标题" class="headerlink" title="1. 小标题"></a>1. 小标题</h3><p>芜湖起飞~</p><h4 id="1-三级标题"><a href="#1-三级标题" class="headerlink" title="(1). 三级标题"></a>(1). 三级标题</h4><p>内容</p><h4 id="2-三级标题二"><a href="#2-三级标题二" class="headerlink" title="(2). 三级标题二"></a>(2). 三级标题二</h4><p>内容。</p><hr><h2 id="参考文献"><a href="#参考文献" class="headerlink" title="参考文献"></a>参考文献</h2><hr><hr><p><a href="http://www.bilibili.com/">www.bilibili.com</a></p>]]></content>
     
@@ -30,6 +55,39 @@
     
     
     
+    <category term="计算机" scheme="http://example.com/categories/%E8%AE%A1%E7%AE%97%E6%9C%BA/"/>
+    
+    <category term="博客相关" scheme="http://example.com/categories/%E8%AE%A1%E7%AE%97%E6%9C%BA/%E5%8D%9A%E5%AE%A2%E7%9B%B8%E5%85%B3/"/>
+    
+    
+    <category term="测试" scheme="http://example.com/tags/%E6%B5%8B%E8%AF%95/"/>
+    
+    <category term="博客" scheme="http://example.com/tags/%E5%8D%9A%E5%AE%A2/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>我的博客测试二号</title>
+    <link href="http://example.com/2021/12/04/%E6%B5%8B%E8%AF%95/%E6%88%91%E7%9A%84%E5%8D%9A%E5%AE%A2%E6%B5%8B%E8%AF%952/"/>
+    <id>http://example.com/2021/12/04/%E6%B5%8B%E8%AF%95/%E6%88%91%E7%9A%84%E5%8D%9A%E5%AE%A2%E6%B5%8B%E8%AF%952/</id>
+    <published>2021-12-03T17:45:26.000Z</published>
+    <updated>2021-12-05T11:32:37.144Z</updated>
+    
+    <content type="html"><![CDATA[<h2 id="一、这是大标题"><a href="#一、这是大标题" class="headerlink" title="一、这是大标题"></a>一、这是大标题</h2><p>描述</p><h3 id="1-小标题好"><a href="#1-小标题好" class="headerlink" title="1. 小标题好"></a>1. 小标题好</h3><p>  内容<em>内容</em><strong>内容</strong>。</p><h3 id="2-小标题"><a href="#2-小标题" class="headerlink" title="2. 小标题"></a>2. 小标题</h3><h2 id="内容内容"><a href="#内容内容" class="headerlink" title="  内容内容"></a>  内容内容</h2><h2 id="二、第二个大标题"><a href="#二、第二个大标题" class="headerlink" title="二、第二个大标题"></a>二、第二个大标题</h2><p>描述</p><h3 id="1-小标题"><a href="#1-小标题" class="headerlink" title="1. 小标题"></a>1. 小标题</h3><p>芜湖起飞~</p><h4 id="1-三级标题"><a href="#1-三级标题" class="headerlink" title="(1). 三级标题"></a>(1). 三级标题</h4><p>内容</p><h4 id="2-三级标题二"><a href="#2-三级标题二" class="headerlink" title="(2). 三级标题二"></a>(2). 三级标题二</h4><p>内容。</p><hr><h2 id="参考文献"><a href="#参考文献" class="headerlink" title="参考文献"></a>参考文献</h2><hr><hr><p><a href="http://www.bilibili.com/">www.bilibili.com</a></p>]]></content>
+    
+    
+    <summary type="html">这个是这篇文章的描述</summary>
+    
+    
+    
+    <category term="计算机" scheme="http://example.com/categories/%E8%AE%A1%E7%AE%97%E6%9C%BA/"/>
+    
+    <category term="博客相关" scheme="http://example.com/categories/%E8%AE%A1%E7%AE%97%E6%9C%BA/%E5%8D%9A%E5%AE%A2%E7%9B%B8%E5%85%B3/"/>
+    
+    
+    <category term="测试" scheme="http://example.com/tags/%E6%B5%8B%E8%AF%95/"/>
+    
+    <category term="博客" scheme="http://example.com/tags/%E5%8D%9A%E5%AE%A2/"/>
     
   </entry>
   
