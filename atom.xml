@@ -6,7 +6,7 @@
   <link href="http://example.com/atom.xml" rel="self"/>
   
   <link href="http://example.com/"/>
-  <updated>2021-12-05T11:45:54.487Z</updated>
+  <updated>2021-12-06T11:44:49.582Z</updated>
   <id>http://example.com/</id>
   
   <author>
@@ -17,11 +17,38 @@
   <generator uri="https://hexo.io/">Hexo</generator>
   
   <entry>
+    <title>水文与水资源学·例题：用Excel计算P-Ⅲ型某一重现期（指定概率P）所对应的水文特征值Xp</title>
+    <link href="http://example.com/2021/12/06/%E7%94%A8Excel%E5%87%BD%E6%95%B0%E8%AE%A1%E7%AE%97%E6%B1%82%E8%A7%A3Xp/"/>
+    <id>http://example.com/2021/12/06/%E7%94%A8Excel%E5%87%BD%E6%95%B0%E8%AE%A1%E7%AE%97%E6%B1%82%E8%A7%A3Xp/</id>
+    <published>2021-12-05T16:00:00.000Z</published>
+    <updated>2021-12-06T11:44:49.582Z</updated>
+    
+    <content type="html"><![CDATA[<h2 id="题目"><a href="#题目" class="headerlink" title="题目"></a>题目</h2><p>已知某站河流年最大流量平均值为6500m3/s，Cv=0.35，Cs=2Cv，试求累积频率P=0.5%和P=5%的年平径流量Q各是多少？</p><hr><h2 id="知识点回顾"><a href="#知识点回顾" class="headerlink" title="知识点回顾"></a>知识点回顾</h2><p>P-Ⅲ型分布的概率密度函数为：<br><img src="https://s2.loli.net/2021/12/06/EPsxRHn3YcVIdLM.png" alt="P-Ⅲ型分布的概率密度函数"><br><img src="https://s2.loli.net/2021/12/06/ukCFMDxNw7Lpo95.png"><br>若上述三个参数的值确定了，那么该概率密度曲线也将确定。<br>而这三个参数与统计参数——平均数、离势系数Cv、偏态系数Cs之间存在以下关系：<br><img src="https://s2.loli.net/2021/12/06/7mfHZPcqiChVXx1.png"><br><img src="https://s2.loli.net/2021/12/06/Ec63CrLjY5sGFRy.png"><br><img src="https://s2.loli.net/2021/12/06/qPDh7yudzVTNRIW.png"></p><hr><h2 id="分析"><a href="#分析" class="headerlink" title="分析"></a>分析</h2><p>在水文计算的过程中常常掌握了大量统计数据，想要计算得到在某一重现期（指定概率P）下所对应的水文特征值Xp；<br>在这一题中，即求累计频率为P时，所对应的年平均径流量Q是为多少。</p><p>若已知平均数、离势系数Cv、偏态系数Cs，则可以利用P-Ⅲ型分布的概率分布函数求解，即P-Ⅲ型分布的概率密度函数的积分形式：<br><img src="https://s2.loli.net/2021/12/06/hvibsmD36grRYMx.png" alt="P-Ⅲ型分布的概率分布函数"></p><hr><h2 id="用Excel求解"><a href="#用Excel求解" class="headerlink" title="用Excel求解"></a>用Excel求解</h2><p>在Excel表格的对应格子中输入已知的年最大流量平均值Q（m³/s）、Cv、Cs和想要求的概率P，并使用以下公式：</p><table><thead><tr><th align="center">表格序号</th><th align="center">填写内容</th></tr></thead><tbody><tr><td align="center">B1</td><td align="center">年最大流量平均值Q（m³/s）的值</td></tr><tr><td align="center">B2</td><td align="center">Cv值</td></tr><tr><td align="center">B3</td><td align="center">Cs值</td></tr><tr><td align="center">B7</td><td align="center">想要求得的P</td></tr><tr><td align="center">B4</td><td align="center">α=4/(B3*B3)</td></tr><tr><td align="center">B5</td><td align="center">β=2/(B1<em>B2</em>B3)</td></tr><tr><td align="center">B6</td><td align="center">α0=B1*(1-2*B2/B3)</td></tr><tr><td align="center">B8</td><td align="center">Γ(α)=GAMMAINV(1-B7,B4,1)</td></tr><tr><td align="center">B9</td><td align="center">xp=((B3/2*B8-2/B3)*B2+1)*B1</td></tr></tbody></table><p>效果如图所示：<br><img src="https://s2.loli.net/2021/12/06/gxXfjFDcQ6E3KYC.png" alt="题目中概率为0.01时所对应的Q"></p>]]></content>
+    
+    
+    <summary type="html">用Excel函数计算水文随机变量P-Ⅲ型分布某一重现期（指定概率P）所对应的水文特征值Xp</summary>
+    
+    
+    
+    <category term="学习" scheme="http://example.com/categories/%E5%AD%A6%E4%B9%A0/"/>
+    
+    <category term="大学课程" scheme="http://example.com/categories/%E5%AD%A6%E4%B9%A0/%E5%A4%A7%E5%AD%A6%E8%AF%BE%E7%A8%8B/"/>
+    
+    <category term="水文与水资源学" scheme="http://example.com/categories/%E5%AD%A6%E4%B9%A0/%E5%A4%A7%E5%AD%A6%E8%AF%BE%E7%A8%8B/%E6%B0%B4%E6%96%87%E4%B8%8E%E6%B0%B4%E8%B5%84%E6%BA%90%E5%AD%A6/"/>
+    
+    
+    <category term="水文与水资源学" scheme="http://example.com/tags/%E6%B0%B4%E6%96%87%E4%B8%8E%E6%B0%B4%E8%B5%84%E6%BA%90%E5%AD%A6/"/>
+    
+    <category term="例题" scheme="http://example.com/tags/%E4%BE%8B%E9%A2%98/"/>
+    
+  </entry>
+  
+  <entry>
     <title>水文与水资源学 第一章 笔记</title>
     <link href="http://example.com/2021/12/05/%E6%B0%B4%E6%96%87%E4%B8%8E%E6%B0%B4%E8%B5%84%E6%BA%90%E5%AD%A6/"/>
     <id>http://example.com/2021/12/05/%E6%B0%B4%E6%96%87%E4%B8%8E%E6%B0%B4%E8%B5%84%E6%BA%90%E5%AD%A6/</id>
-    <published>2021-12-05T11:16:21.262Z</published>
-    <updated>2021-12-05T11:45:54.487Z</updated>
+    <published>2021-12-04T16:00:00.000Z</published>
+    <updated>2021-12-06T11:21:19.487Z</updated>
     
     <content type="html"><![CDATA[<h2 id="要求"><a href="#要求" class="headerlink" title="要求"></a>要求</h2><p>理解水文与水资源学的研究对象与核心内容；<br>了解水文学、水资源学的发展历程和未来的发展方向。</p><hr><h2 id="一、-水文与水资源学研究的对象和任务"><a href="#一、-水文与水资源学研究的对象和任务" class="headerlink" title="一、 水文与水资源学研究的对象和任务"></a>一、 水文与水资源学研究的对象和任务</h2><h3 id="1-名词解释"><a href="#1-名词解释" class="headerlink" title="1. 名词解释"></a>1. 名词解释</h3><p>水文：<br>水资源：<br>水文学：</p><h2 id="二、-水文与水资源的基本特征"><a href="#二、-水文与水资源的基本特征" class="headerlink" title="二、 水文与水资源的基本特征"></a>二、 水文与水资源的基本特征</h2><h3 id="1-时程变化的必然性和偶然性"><a href="#1-时程变化的必然性和偶然性" class="headerlink" title="1. 时程变化的必然性和偶然性"></a>1. 时程变化的必然性和偶然性</h3><p>……</p>]]></content>
     
@@ -47,31 +74,6 @@
     <id>http://example.com/2021/12/04/%E6%88%91%E7%9A%84%E5%8D%9A%E5%AE%A2%E6%B5%8B%E8%AF%95/</id>
     <published>2021-12-03T17:45:26.000Z</published>
     <updated>2021-12-05T11:33:40.968Z</updated>
-    
-    <content type="html"><![CDATA[<h2 id="一、这是大标题"><a href="#一、这是大标题" class="headerlink" title="一、这是大标题"></a>一、这是大标题</h2><p>描述</p><h3 id="1-小标题好"><a href="#1-小标题好" class="headerlink" title="1. 小标题好"></a>1. 小标题好</h3><p>  内容<em>内容</em><strong>内容</strong>。</p><h3 id="2-小标题"><a href="#2-小标题" class="headerlink" title="2. 小标题"></a>2. 小标题</h3><h2 id="内容内容"><a href="#内容内容" class="headerlink" title="  内容内容"></a>  内容内容</h2><h2 id="二、第二个大标题"><a href="#二、第二个大标题" class="headerlink" title="二、第二个大标题"></a>二、第二个大标题</h2><p>描述</p><h3 id="1-小标题"><a href="#1-小标题" class="headerlink" title="1. 小标题"></a>1. 小标题</h3><p>芜湖起飞~</p><h4 id="1-三级标题"><a href="#1-三级标题" class="headerlink" title="(1). 三级标题"></a>(1). 三级标题</h4><p>内容</p><h4 id="2-三级标题二"><a href="#2-三级标题二" class="headerlink" title="(2). 三级标题二"></a>(2). 三级标题二</h4><p>内容。</p><hr><h2 id="参考文献"><a href="#参考文献" class="headerlink" title="参考文献"></a>参考文献</h2><hr><hr><p><a href="http://www.bilibili.com/">www.bilibili.com</a></p>]]></content>
-    
-    
-    <summary type="html">这个是这篇文章的描述</summary>
-    
-    
-    
-    <category term="计算机" scheme="http://example.com/categories/%E8%AE%A1%E7%AE%97%E6%9C%BA/"/>
-    
-    <category term="博客相关" scheme="http://example.com/categories/%E8%AE%A1%E7%AE%97%E6%9C%BA/%E5%8D%9A%E5%AE%A2%E7%9B%B8%E5%85%B3/"/>
-    
-    
-    <category term="测试" scheme="http://example.com/tags/%E6%B5%8B%E8%AF%95/"/>
-    
-    <category term="博客" scheme="http://example.com/tags/%E5%8D%9A%E5%AE%A2/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>我的博客测试二号</title>
-    <link href="http://example.com/2021/12/04/%E6%B5%8B%E8%AF%95/%E6%88%91%E7%9A%84%E5%8D%9A%E5%AE%A2%E6%B5%8B%E8%AF%952/"/>
-    <id>http://example.com/2021/12/04/%E6%B5%8B%E8%AF%95/%E6%88%91%E7%9A%84%E5%8D%9A%E5%AE%A2%E6%B5%8B%E8%AF%952/</id>
-    <published>2021-12-03T17:45:26.000Z</published>
-    <updated>2021-12-05T11:32:37.144Z</updated>
     
     <content type="html"><![CDATA[<h2 id="一、这是大标题"><a href="#一、这是大标题" class="headerlink" title="一、这是大标题"></a>一、这是大标题</h2><p>描述</p><h3 id="1-小标题好"><a href="#1-小标题好" class="headerlink" title="1. 小标题好"></a>1. 小标题好</h3><p>  内容<em>内容</em><strong>内容</strong>。</p><h3 id="2-小标题"><a href="#2-小标题" class="headerlink" title="2. 小标题"></a>2. 小标题</h3><h2 id="内容内容"><a href="#内容内容" class="headerlink" title="  内容内容"></a>  内容内容</h2><h2 id="二、第二个大标题"><a href="#二、第二个大标题" class="headerlink" title="二、第二个大标题"></a>二、第二个大标题</h2><p>描述</p><h3 id="1-小标题"><a href="#1-小标题" class="headerlink" title="1. 小标题"></a>1. 小标题</h3><p>芜湖起飞~</p><h4 id="1-三级标题"><a href="#1-三级标题" class="headerlink" title="(1). 三级标题"></a>(1). 三级标题</h4><p>内容</p><h4 id="2-三级标题二"><a href="#2-三级标题二" class="headerlink" title="(2). 三级标题二"></a>(2). 三级标题二</h4><p>内容。</p><hr><h2 id="参考文献"><a href="#参考文献" class="headerlink" title="参考文献"></a>参考文献</h2><hr><hr><p><a href="http://www.bilibili.com/">www.bilibili.com</a></p>]]></content>
     
